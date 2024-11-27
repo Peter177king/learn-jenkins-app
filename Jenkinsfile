@@ -17,7 +17,7 @@ pipeline {
                     npm ci
                     npm run test
                     ls -la
-                    locate index.html
+                    npm test
                 '''
             }
         }
