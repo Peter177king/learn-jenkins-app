@@ -17,6 +17,7 @@ pipeline {
                     npm ci
                     npm run test
                     ls -la
+                    cat index.html
                 '''
             }
         }
